@@ -3,3 +3,10 @@ node_js:
   - 7
 script:
   - npm run build
+deploy:
+  provider: heroku
+  api_key:
+    secure: 49eed537-3641-41d6-b6fc-1b9dab814a1c
+  app: vue-travis-ci
+  on:
+    repo: thanhdpdev/vue-travis-ci

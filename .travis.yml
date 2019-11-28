@@ -9,4 +9,5 @@ deploy:
     secure: 49eed537-3641-41d6-b6fc-1b9dab814a1c
   app: vue-travis-ci
   on:
+    branch: dev
     repo: thanhdpdev/vue-travis-ci

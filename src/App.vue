@@ -4,7 +4,7 @@
       <nav class="inner">
         <router-link to="/" exact>
           <img class="logo" src="~public/logo-48.png" alt="logo">
-          Travis CI
+          Travis CI With Vue
         </router-link>
         <router-link to="/top">Top</router-link>
         <router-link to="/new">New</router-link>
